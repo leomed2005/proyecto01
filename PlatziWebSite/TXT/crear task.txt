@@ -1,0 +1,10 @@
+Como crear tarea programada para ejecutar ps1
+
+schtask /create /to "procesoX' /sc monthly / 
+2
+3
+PROGRAM SCRIPT: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ 
+ADD ARGUMENTS (optional): -command "C:\MatarSesionesCitrix\cierresesiones.ps1"
+
+fuente :  https://www.maquinasvirtuales.eu/tarea-programada-con-fichero-powershell-ps1/
